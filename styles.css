@@ -51,8 +51,8 @@ body {
 .wheel1 img {
     width: 77px;
     position: relative;
-    top: -39px;
-    left: 235px;
+    top: 42px;
+    left: 42px;
     animation: wheelRotation linear .16s infinite;
 }
 
@@ -67,7 +67,12 @@ body {
 }
 
 
-
+@keyframes wheelRotation
+{
+    100%{
+        transform:rotate(360deg);
+    }
+}
 
 
 
