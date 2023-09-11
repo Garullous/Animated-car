@@ -48,10 +48,23 @@ body {
     animation: shake linear .3s infinite;
 }
 
+.wheel1 img {
+    width: 77px;
+    position: relative;
+    top: -39px;
+    left: 235px;
+    animation: wheelRotation linear .16s infinite;
+}
 
 
 
-
+.wheel2 img {
+    width: 77px;
+    position: relative;
+    top: -39px;
+    left: 235px;
+    animation: wheelRotation linear .16s infinite;
+}
 
 
 
